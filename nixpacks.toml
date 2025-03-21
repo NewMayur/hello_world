@@ -1,3 +1,4 @@
+#nixpacks.toml
+
 [start]
-# Start the Flask application
-cmd = "gunicorn app:app"
+cmd = "gunicorn main:app"
