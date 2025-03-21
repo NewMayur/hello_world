@@ -2,6 +2,6 @@
 # Install Python dependencies
 commands = ["pip install -r requirements.txt"]
 
-[phases.start]
+[start]
 # Start the Flask application
 cmd = "python app.py"
